@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "todos",
+  "info": {
+    "singularName": "todo",
+    "pluralName": "todos",
+    "displayName": "Todo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "due": {
+      "type": "string"
+    },
+    "finished": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string"
+    }
+  }
+}
